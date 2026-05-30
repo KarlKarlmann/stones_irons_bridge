@@ -1,4 +1,4 @@
-# Stones Iron's Spellbooks Bridge
+# Stones Iron's Spells 'n Spellbooks Bridge
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20.1-brightgreen)
 ![Forge Version](https://img.shields.io/badge/Forge-47.2.0+-orange)
