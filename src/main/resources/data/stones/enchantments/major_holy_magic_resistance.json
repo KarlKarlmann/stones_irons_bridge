@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "irons_spellbooks:holy_magic_resist",
+  "operation": "ADDITION",
+  "factor": 0.5,
+  "name": "rune.stones_irons_bridge.major_holy_magic_resistance",
+  "required_level": 0.5,
+  "description": "rune.stones_irons_bridge.major_holy_magic_resistance.desc"
+}

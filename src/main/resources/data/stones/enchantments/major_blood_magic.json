@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "irons_spellbooks:blood_magic_power",
+  "operation": "ADDITION",
+  "factor": 0.5,
+  "name": "Major Rune of Blood Magic",
+  "required_level": 0.5,
+  "description": "Erhöht die Kraft von Blutmagie drastisch."
+}

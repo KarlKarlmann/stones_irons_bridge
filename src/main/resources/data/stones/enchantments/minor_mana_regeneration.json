@@ -1,0 +1,9 @@
+{
+  "type": "MINOR",
+  "attribute": "irons_spellbooks:mana_regen",
+  "operation": "ADDITION",
+  "factor": 0.1,
+  "name": "rune.stones_irons_bridge.minor_mana_regeneration",
+  "required_level": 0.2,
+  "description": "rune.stones_irons_bridge.minor_mana_regeneration.desc"
+}

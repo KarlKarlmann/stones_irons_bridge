@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "irons_spellbooks:eldritch_magic_resist",
+  "operation": "ADDITION",
+  "factor": 0.5,
+  "name": "rune.stones_irons_bridge.major_eldritch_magic_resistance",
+  "required_level": 0.5,
+  "description": "rune.stones_irons_bridge.major_eldritch_magic_resistance.desc"
+}

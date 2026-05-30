@@ -1,0 +1,105 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '6.0.+'
+        // WICHTIG: Das Mixin-Gradle Plugin hinzufügen
+        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.spongepowered.mixin' // Mixin Plugin anwenden
+
+version = mod_version
+group = mod_group
+archivesBaseName = mod_id
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: mappings_channel, version: mappings_version
+    
+    // AT für Zugriff auf geschützte Felder/Methoden (falls benoetigt)
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            // Dynamische Referenz zur korrekten Mixin-Config
+            arg "-mixin.config=${mod_id}.mixins.json"
+            mods { "${mod_id}" { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            arg "-mixin.config=${mod_id}.mixins.json"
+            mods { "${mod_id}" { source sourceSets.main } }
+        }
+    }
+}
+
+// Mixin Konfiguration
+mixin {
+    add sourceSets.main, "${mod_id}.refmap.json"
+    config "${mod_id}.mixins.json"
+}
+
+repositories {
+    flatDir { dirs 'libs' }
+    // Nützlich, falls Mods über CurseMaven geladen werden statt lokal aus /libs
+    maven { url = "https://cursemaven.com" } 
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+    
+    // WICHTIG: Annotation Processor für Mixins
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // LOKALE JAR NUTZUNG IN /libs
+    implementation name: "irons_spellbooks-${irons_spellbooks_version}"
+    implementation name: "stones-${stones_version}"
+}
+
+// --- Anpassung 1: Dateiname der fertigen JAR dynamisch generieren ---
+tasks.named('jar', Jar).configure {
+    archiveFileName = "${mod_id}_${mc_version}_forge_${mod_version}.jar"
+    
+    manifest {
+        attributes([
+            "Specification-Title": mod_name,
+            "Specification-Vendor": mod_authors,
+            "Specification-Version": "1",
+            "Implementation-Title": project.name,
+            "Implementation-Version": project.jar.archiveVersion,
+            "Implementation-Vendor": mod_authors,
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+            // WICHTIG: Mixins in die kompilierte JAR einbinden
+            "MixinConfigs": "${mod_id}.mixins.json"
+        ])
+    }
+}
+
+// --- Anpassung 2: Version dynamisch in die mods.toml schreiben ---
+tasks.named('processResources', ProcessResources).configure {
+    def replaceProperties = [
+            version: mod_version
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+// --- Anpassung 3: Lokales Git-Push Skript laden, falls vorhanden ---
+if (file('local-git.gradle').exists()) {
+    apply from: 'local-git.gradle'
+}

@@ -1,0 +1,142 @@
+{
+  "type": "MILESTONE",
+  "name": "DICT:milestone.stones_irons_bridge.battle_mage.name",
+  "description": "DICT:milestone.stones_irons_bridge.battle_mage.description",
+  "icon": "minecraft:amethyst_shard",
+  "stats": [
+    {
+      "id": "max_charge",
+      "label": "DICT:stat.stones.max_charge",
+      "base": 8.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": -0.25,
+      "min": 3.0,
+      "suffix": "DICT:stat.stones.suffix.strikes"
+    },
+    {
+      "id": "retained_charge",
+      "label": "DICT:stat.stones.retained_charge",
+      "base": 0.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 0.05,
+      "suffix": "DICT:stat.stones.suffix.points"
+    },
+    {
+      "id": "combo_timeout",
+      "label": "DICT:stat.stones.combo_timeout",
+      "base": 140.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 10.0,
+      "suffix": "DICT:stat.stones.suffix.ticks"
+    },
+    {
+      "id": "buff_duration",
+      "label": "DICT:stat.stones.buff_duration",
+      "base": 100.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 20.0,
+      "suffix": "DICT:stat.stones.suffix.ticks"
+    },
+    {
+      "id": "buff_power",
+      "label": "DICT:stat.stones.buff_power",
+      "base": 0.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 1.0,
+      "suffix": "DICT:stat.stones.suffix.amplifier"
+    }
+  ],
+  "behaviors": [
+    {
+      "trigger": "ON_ATTACK",
+      "actions": [
+        {
+          "type": "stones:get_persistent_var",
+          "name": "arcane_charge",
+          "into": "current_arcane_charge"
+        },
+        {
+          "type": "stones:math",
+          "variable": "current_arcane_charge",
+          "operation": "add",
+          "value": 1.0
+        },
+        {
+          "type": "stones:case",
+          "cases": [
+            {
+              "condition": {
+                "type": "stones:variable_compare",
+                "variable": "current_arcane_charge",
+                "operator": ">=",
+                "value": "$max_charge"
+              },
+              "actions": [
+                {
+                  "type": "stones:apply_effect",
+                  "effect": "stones_irons_bridge:overdrive",
+                  "duration": "$buff_duration",
+                  "amplifier": "$buff_power"
+                },
+                {
+                  "type": "stones:play_sound",
+                  "sound": "minecraft:block.amethyst_block.chime",
+                  "pitch": 1.5,
+                  "volume": 1.0
+                },
+                {
+                  "type": "stones:spawn_particles",
+                  "particle": "minecraft:enchant",
+                  "count": 30,
+                  "spread": 1.0
+                },
+                {
+                  "type": "stones:set_persistent_var",
+                  "name": "arcane_charge",
+                  "value": "$retained_charge"
+                },
+                {
+                  "type": "stones:update_combo",
+                  "id": "arcane_rhythm",
+                  "count": "$retained_charge",
+                  "max": "$max_charge",
+                  "texture": "stones_irons_bridge:textures/gui/combo_soul.png",
+                  "size": 0.3,
+                  "radius": 1.2,
+                  "speed": 0.1,
+                  "color": "#FF00FF",
+                  "timeout": "$combo_timeout"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "type": "stones:set_persistent_var",
+              "name": "arcane_charge",
+              "value": "$current_arcane_charge"
+            },
+            {
+              "type": "stones:play_sound",
+              "sound": "minecraft:entity.experience_orb.pickup",
+              "pitch": 1.0,
+              "volume": 0.3
+            },
+            {
+              "type": "stones:update_combo",
+              "id": "arcane_rhythm",
+              "count": "$current_arcane_charge",
+              "max": "$max_charge",
+              "texture": "stones_irons_bridge:textures/gui/combo_soul.png",
+              "size": 0.3,
+              "radius": 1.2,
+              "speed": 0.1,
+              "color": "#FF00FF",
+              "timeout": "$combo_timeout"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

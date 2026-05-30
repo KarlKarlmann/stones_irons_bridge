@@ -1,0 +1,93 @@
+{
+  "type": "MILESTONE",
+  "name": "DICT:milestone.stones_irons_bridge.arcane_focus.name",
+  "description": "DICT:milestone.stones_irons_bridge.arcane_focus.description",
+  "icon": "minecraft:amethyst_cluster",
+  "stats": [
+    {
+      "id": "proc_chance",
+      "label": "DICT:stat.stones.proc_chance",
+      "base": 5.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 1.0,
+      "min": 5.0,
+      "suffix": "DICT:stat.stones.suffix.percent"
+    },
+    {
+      "id": "buff_duration",
+      "label": "DICT:stat.stones.buff_duration",
+      "base": 100.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 10.0,
+      "suffix": "DICT:stat.stones.suffix.ticks"
+    },
+    {
+      "id": "buff_power",
+      "label": "DICT:stat.stones.buff_power",
+      "base": 0.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 1.0,
+      "suffix": "DICT:stat.stones.suffix.amplifier"
+    }
+  ],
+  "behaviors": [
+    {
+      "trigger": "ON_SPELL_CAST",
+      "actions": [
+        {
+          "type": "stones:get_attribute",
+          "attribute": "minecraft:generic.luck",
+          "into": "player_luck"
+        },
+        {
+          "type": "stones:set_persistent_var",
+          "name": "total_proc_chance",
+          "value": "$proc_chance"
+        },
+        {
+          "type": "stones:math",
+          "variable": "player_luck",
+          "operation": "multiply",
+          "value": 5.0
+        },
+        {
+          "type": "stones:math",
+          "variable": "total_proc_chance",
+          "operation": "add",
+          "value": "$player_luck"
+        },
+        {
+          "type": "stones:case",
+          "cases": [
+            {
+              "condition": {
+                "type": "stones:chance",
+                "value": "$total_proc_chance"
+              },
+              "actions": [
+                {
+                  "type": "stones:apply_effect",
+                  "effect": "stones_irons_bridge:clearcast",
+                  "duration": "$buff_duration",
+                  "amplifier": "$buff_power"
+                },
+                {
+                  "type": "stones:play_sound",
+                  "sound": "minecraft:block.amethyst_block.chime",
+                  "pitch": 2.0,
+                  "volume": 0.8
+                },
+                {
+                  "type": "stones:spawn_particles",
+                  "particle": "minecraft:totem_of_undying",
+                  "count": 40,
+                  "spread": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

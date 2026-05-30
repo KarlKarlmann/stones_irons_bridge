@@ -1,0 +1,9 @@
+{
+  "type": "MINOR",
+  "attribute": "irons_spellbooks:ender_spell_power",
+  "operation": "ADDITION",
+  "factor": 0.1,
+  "name": "rune.stones_irons_bridge.minor_ender_magic_power",
+  "required_level": 0.2,
+  "description": "rune.stones_irons_bridge.minor_ender_magic_power.desc"
+}

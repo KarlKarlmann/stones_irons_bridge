@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "irons_spellbooks:max_mana",
+  "operation": "ADDITION",
+  "factor": 0.5,
+  "name": "rune.stones_irons_bridge.major_mana",
+  "required_level": 0.5,
+  "description": "rune.stones_irons_bridge.major_mana.desc"
+}

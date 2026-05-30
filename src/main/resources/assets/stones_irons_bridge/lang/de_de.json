@@ -1,0 +1,56 @@
+{
+  "stones_irons_bridge.subtitle.spell_fizzle": "Zauber verpufft",
+  "stones_irons_bridge.subtitle.obliterate": "Auslöschung hallt wider",
+  "skill.stones_irons_bridge.school_of_blood": "Schule des Blutes",
+  "skill.stones_irons_bridge.school_of_blood.tooltip": "Zehre von der karmesinroten Lebenskraft, die alle Sterblichen bindet. Schaltet die esoterischen Künste der Blutmagie frei.",
+  "enchantment.stones_irons_bridge.blood": "Opferritus: Diese uralte Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Blutes zu wirken und deine eigene Vitalität in eine verheerende Waffe zu verwandeln.",
+
+  "skill.stones_irons_bridge.school_of_eldritch": "Schule des Eldritch",
+  "skill.stones_irons_bridge.school_of_eldritch.tooltip": "Blicke in den Abgrund und begreife das Unbegreifliche. Schaltet die wahnsinnig machenden Künste der Eldritch-Magie frei.",
+  "enchantment.stones_irons_bridge.eldritch": "Flüstern der Tiefe: Diese außerweltliche Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Eldritch zu wirken und die Realität nach deinem Willen zu formen.",
+
+  "skill.stones_irons_bridge.school_of_ender": "Schule des Ender",
+  "skill.stones_irons_bridge.school_of_ender.tooltip": "Beuge Raum und Realität wie die Bewohner des Ends. Schaltet die teleportierenden Künste der Endermagie frei.",
+  "enchantment.stones_irons_bridge.ender": "Zeichen des Leerenläufers: Diese dimensionale Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Ender zu wirken, wodurch du durch das Gewebe der Welt gleiten kannst.",
+
+  "skill.stones_irons_bridge.school_of_evocation": "Schule der Beschwörung",
+  "skill.stones_irons_bridge.school_of_evocation.tooltip": "Rufe spektrale Wesen herbei und befehlige die Mächte, die von den Illagern genutzt werden. Schaltet die beschwörenden Künste der Beschwörungsmagie frei.",
+  "enchantment.stones_irons_bridge.evocation": "Griff des Illusionisten: Diese finstere Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule der Beschwörung zu wirken und deine dunkelsten Gedanken zum Leben zu erwecken.",
+
+  "skill.stones_irons_bridge.school_of_fire": "Schule des Feuers",
+  "skill.stones_irons_bridge.school_of_fire.tooltip": "Entzünde deinen Geist mit der urtümlichen Essenz der Zerstörung. Schaltet die lodernden Künste der Feuermagie frei.",
+  "enchantment.stones_irons_bridge.fire": "Umarmung des Infernos: Diese sengende Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Feuers zu wirken und deine Feinde zu Asche zerfallen zu lassen.",
+
+  "skill.stones_irons_bridge.school_of_holy": "Schule des Heiligen",
+  "skill.stones_irons_bridge.school_of_holy.tooltip": "Kanalisiere das göttliche Licht, um die Verwundeten zu heilen und das Böse zu zerschmettern. Schaltet die strahlenden Künste der Heiligen Magie frei.",
+  "enchantment.stones_irons_bridge.holy": "Göttlicher Segen: Diese leuchtende Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Heiligen zu wirken und dich zu einem Leuchtfeuer in den darkesten Zeiten zu machen.",
+
+  "skill.stones_irons_bridge.school_of_ice": "Schule des Eises",
+  "skill.stones_irons_bridge.school_of_ice.tooltip": "Umarme die beißende Kälte der gefrorenen Einöden und befehlige den Frost. Schaltet die gefrierenden Künste der Eismagie frei.",
+  "enchantment.stones_irons_bridge.ice": "Gletscherherz: Diese gefrierende Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Eises zu wirken und deine Feinde auf der Stelle erstarren zu lassen.",
+
+  "skill.stones_irons_bridge.school_of_lightning": "Schule des Blitzes",
+  "skill.stones_irons_bridge.school_of_lightning.tooltip": "Mache dir die flüchtige Energie der tosenden Stürme zunutze. Schaltet die elektrisierenden Künste der Blitzmagie frei.",
+  "enchantment.stones_irons_bridge.lightning": "Schwur des Sturmbeschwörers: Diese knisternde Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule des Blitzes zu wirken und den Zorn des Himmels auf die Erde herabzubeschwören.",
+
+  "skill.stones_irons_bridge.school_of_nature": "Schule der Natur",
+  "skill.stones_irons_bridge.school_of_nature.tooltip": "Werde eins mit den Wurzeln, der Erde und dem Gift der Wildnis. Schaltet die aufblühenden Künste der Naturmagie frei.",
+  "enchantment.stones_irons_bridge.nature": "Erwachen des Druiden: Diese irdene Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule der Natur zu wirken und die ungezähmte Wildnis an deine Seite zu rufen.",
+
+  "skill.stones_irons_bridge.school_of_void": "Schule der Leere",
+  "skill.stones_irons_bridge.school_of_void.tooltip": "Zapfe die unermessliche, alles verzehrende Leere an, die zwischen den Welten liegt. Schaltet die zerstörerischen Künste der Leerenmagie frei.",
+  "enchantment.stones_irons_bridge.void": "Umarmung des Nichts: Diese dunkle Rune erlaubt es dir, Zauber des %2$s. Zirkel der Schule der Leere zu wirken und die Schöpfung selbst ungeschehen zu machen.",
+  "tooltip.stones_irons_bridge.magic_requirements": "Magische Anforderungen:",
+  "tooltip.stones_irons_bridge.magic_requirements_scroll": "Anforderungen (im Zauberbuch):",
+  "tooltip.stones_irons_bridge.circle_active": "✔ %1$s Zirkel %2$s (Aktiv)",
+  "tooltip.stones_irons_bridge.circle_inactive": "✘ %1$s Zirkel %2$s (Zu schwach - Aktuell: %3$s)",
+  "tooltip.stones_irons_bridge.circle_inactive_simple": "✘ %1$s Zirkel %2$s (Zu schwach)",
+  "tooltip.stones_irons_bridge.reagents": "Reagenzienkosten:",
+  "tooltip.stones_irons_bridge.shift_info": "Halte [LSHIFT] für Details",
+  "tooltip.stones_irons_bridge.math_effective_circle": "Basis %s + Level-Bonus %s = Zirkel %s",
+  "tooltip.stones_irons_bridge.math_fizzle_chance": "Basis-Fehlschlagrate: %s%%",
+  "tooltip.stones_irons_bridge.math_luck_bonus": "Glücks-Bonus: -%s%%",
+  "tooltip.stones_irons_bridge.math_final_chance": "Effektive Fehlschlagchance: %s%%",
+  "message.stones_irons_bridge.circle_too_low": "%1$s Zirkel zu gering! (Benötigt: Zirkel %2$s)",
+  "message.stones_irons_bridge.missing_reagents": "Reagenzien fehlen!"
+}

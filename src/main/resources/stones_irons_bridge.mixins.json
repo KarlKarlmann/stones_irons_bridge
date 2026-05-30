@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.stones_irons_bridge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "stones_irons_bridge.refmap.json",
+  "mixins": [
+    "ActionSystemMixin",
+    "PacketPerformActionMixin"
+  ],
+  "client": [
+    "client.InscriptionTableScreenMixin",
+    "client.ScrollForgeScreenMixin",
+	"client.SpellBarOverlayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

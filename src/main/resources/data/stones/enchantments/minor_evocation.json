@@ -1,0 +1,9 @@
+{
+  "type": "MINOR",
+  "attribute": "stones_irons_bridge:knowledge_evocation",
+  "operation": "ADDITION",
+  "factor": 0.2,
+  "name": "DICT:runes.stones_irons_bridge.minor_evocation.title",
+  "required_level": 0.2,
+  "description": "DICT:runes.stones_irons_bridge.minor_evocation.description"
+}

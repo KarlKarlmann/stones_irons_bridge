@@ -1,0 +1,118 @@
+{
+  "type": "MILESTONE",
+  "name": "DICT:milestone.stones_irons_bridge.archon.name",
+  "description": "DICT:milestone.stones_irons_bridge.archon.description",
+  "icon": "stones_irons_bridge:textures/mob_effect/archon.png",
+  "stats": [
+    {
+      "id": "archon_cooldown",
+      "label": "DICT:stat.stones.cooldown",
+      "base": 1200.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": -30.0,
+      "display_factor": 0.05,
+      "suffix": "DICT:stat.stones.suffix.seconds"
+    },
+    {
+      "id": "buff_duration",
+      "label": "DICT:stat.stones.buff_duration",
+      "base": 60.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 10.0,
+      "suffix": "DICT:stat.stones.suffix.ticks"
+    },
+    {
+      "id": "archon_tier",
+      "label": "Tier",
+      "base": 1.0,
+      "scaling": "RUNE_LEVEL",
+      "per_level": 1.0,
+      "hidden": true
+    }
+  ],
+  "behaviors": [
+    {
+      "trigger": "ON_ACTION_BUTTON",
+      "conditions": [
+        {
+          "type": "stones:is_ready"
+        }
+      ],
+      "actions": [
+        {
+          "type": "stones:cooldown",
+          "ticks": "$archon_cooldown"
+        },
+        {
+          "type": "stones:command",
+          "command": "clearCooldowns player @s"
+        },
+        {
+          "type": "stones:command",
+          "command": "mana set @s 0"
+        },
+        {
+          "type": "stones:apply_effect",
+          "effect": "stones_irons_bridge:quickcast",
+          "duration": "$buff_duration",
+          "amplifier": 0
+        },
+        {
+          "type": "stones:play_sound",
+          "sound": "stones_irons_bridge:obliterate",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        {
+          "type": "stones:spawn_particles",
+          "particle": "minecraft:enchant",
+          "count": 40,
+          "spread": 1.5
+        },
+        {
+          "type": "stones:set_persistent_var",
+          "name": "archon_level_check",
+          "value": "$archon_tier"
+        },
+        {
+          "type": "stones:case",
+          "cases": [
+            {
+              "condition": {
+                "type": "stones:variable_compare",
+                "variable": "archon_level_check",
+                "operator": ">=",
+                "value": 10.0
+              },
+              "actions": [
+                {
+                  "type": "stones:apply_effect",
+                  "effect": "stones_irons_bridge:clearcast",
+                  "duration": "$buff_duration",
+                  "amplifier": 0
+                },
+                {
+                  "type": "stones:play_sound",
+                  "sound": "minecraft:entity.wither.spawn",
+                  "volume": 0.5,
+                  "pitch": 1.5
+                },
+                {
+                  "type": "stones:spawn_particles",
+                  "particle": "minecraft:reverse_portal",
+                  "count": 100,
+                  "spread": 2.0
+                },
+                {
+                  "type": "stones:particle_orbit",
+                  "particle": "minecraft:end_rod",
+                  "count": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

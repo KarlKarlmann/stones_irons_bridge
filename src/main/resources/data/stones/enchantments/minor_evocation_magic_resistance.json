@@ -1,0 +1,9 @@
+{
+  "type": "MINOR",
+  "attribute": "irons_spellbooks:evocation_magic_resist",
+  "operation": "ADDITION",
+  "factor": 0.1,
+  "name": "rune.stones_irons_bridge.minor_evocation_magic_resistance",
+  "required_level": 0.2,
+  "description": "rune.stones_irons_bridge.minor_evocation_magic_resistance.desc"
+}

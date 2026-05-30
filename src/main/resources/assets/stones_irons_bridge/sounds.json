@@ -1,0 +1,22 @@
+{
+  "spell_fizzle": {
+    "category": "player",
+    "subtitle": "stones_irons_bridge.subtitle.spell_fizzle",
+    "sounds": [
+      {
+        "name": "stones_irons_bridge:fizzle",
+        "stream": false
+      }
+    ]
+  },
+  "obliterate": {
+    "category": "player",
+    "subtitle": "stones_irons_bridge.subtitle.obliterate",
+    "sounds": [
+      {
+        "name": "stones_irons_bridge:obliterate",
+        "stream": false
+      }
+    ]
+  }
+}

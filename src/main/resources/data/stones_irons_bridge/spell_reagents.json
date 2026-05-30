@@ -1,0 +1,1258 @@
+{
+  "irons_spellbooks:none": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:acupuncture": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:blood_needles": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:blood_slash": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:blood_step": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:devour": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:heartstop": {
+    "circle": 10,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:allium",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:raise_dead": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:ray_of_siphoning": {
+    "circle": 3,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:wither_skull": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:abyssal_shroud": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:eldritch_blast": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:planar_sight": {
+    "circle": 10,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:sculk_tentacles": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:sonic_boom": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:telekinesis": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:black_hole": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 2
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:counterspell": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:dragon_breath": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:echoing_strikes": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:evasion": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:magic_arrow": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:magic_missile": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:portal": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:recall": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:starfall": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:summon_ender_chest": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:teleport": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:string",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:arrow_volley": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:chain_creeper": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:fang_strike": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:fang_ward": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:firecracker": {
+    "circle": 3,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:gust": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:invisibility": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:lob_creeper": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:shield": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:slow": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:spectral_hammer": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:summon_horse": {
+    "circle": 2,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:summon_vex": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:wololo": {
+    "circle": 3,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:blaze_storm": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:burning_dash": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:fireball": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:firebolt": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:fire_breath": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:flaming_strike": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:heat_surge": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:magma_bomb": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:scorch": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:wall_of_fire": {
+    "circle": 3,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:angel_wing": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:blessing_of_life": {
+    "circle": 3,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:cloud_of_regeneration": {
+    "circle": 2,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:divine_smite": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:fortify": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:greater_heal": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:guiding_bolt": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:haste": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:healing_circle": {
+    "circle": 2,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:heal": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:sunbeam": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:wisp": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:cone_of_cold": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:frost_step": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:frostwave": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:ice_block": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:icicle": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:ray_of_frost": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:summon_polar_bear": {
+    "circle": 3,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:ascension": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:chain_lightning": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:charge": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:electrocute": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:lightning_bolt": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:lightning_lance": {
+    "circle": 8,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:shockwave": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:thunder_step": {
+    "circle": 7,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:thunderstorm": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:acid_orb": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:blight": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:earthquake": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:firefly_swarm": {
+    "circle": 5,
+    "reagents": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:gluttony": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:oakskin": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:poison_arrow": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:allium",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:poison_breath": {
+    "circle": 1,
+    "reagents": [
+      {
+        "item": "minecraft:allium",
+        "count": 1
+      },
+      {
+        "item": "minecraft:sweet_berries",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:poison_splash": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:allium",
+        "count": 1
+      },
+      {
+        "item": "minecraft:nether_wart",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:root": {
+    "circle": 4,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:spider_aspect": {
+    "circle": 9,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:allium",
+        "count": 1
+      }
+    ]
+  },
+  "irons_spellbooks:stomp": {
+    "circle": 6,
+    "reagents": [
+      {
+        "item": "minecraft:string",
+        "count": 1
+      },
+      {
+        "item": "minecraft:beetroot",
+        "count": 1
+      }
+    ]
+  }
+}

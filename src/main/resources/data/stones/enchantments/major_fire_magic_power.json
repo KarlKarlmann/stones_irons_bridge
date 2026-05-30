@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "irons_spellbooks:fire_spell_power",
+  "operation": "ADDITION",
+  "factor": 0.5,
+  "name": "rune.stones_irons_bridge.major_fire_magic_power",
+  "required_level": 0.5,
+  "description": "rune.stones_irons_bridge.major_fire_magic_power.desc"
+}

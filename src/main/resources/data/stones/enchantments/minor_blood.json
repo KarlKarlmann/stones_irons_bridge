@@ -1,0 +1,9 @@
+{
+  "type": "MINOR",
+  "attribute": "stones_irons_bridge:knowledge_blood",
+  "operation": "ADDITION",
+  "factor": 0.2,
+  "name": "DICT:runes.stones_irons_bridge.minor_blood.title",
+  "required_level": 0.2,
+  "description": "DICT:runes.stones_irons_bridge.minor_blood.description"
+}

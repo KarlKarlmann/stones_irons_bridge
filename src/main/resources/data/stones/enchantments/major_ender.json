@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "stones_irons_bridge:knowledge_ender",
+  "operation": "ADDITION",
+  "factor": 0.1,
+  "name": "DICT:runes.stones_irons_bridge.major_ender.title",
+  "required_level": 0.5,
+  "description": "DICT:runes.stones_irons_bridge.major_ender.description"
+}

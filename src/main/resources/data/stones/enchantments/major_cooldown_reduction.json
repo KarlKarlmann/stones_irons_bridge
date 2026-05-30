@@ -1,0 +1,9 @@
+{
+  "type": "MAJOR",
+  "attribute": "irons_spellbooks:cooldown_reduction",
+  "operation": "ADDITION",
+  "factor": 0.5,
+  "name": "rune.stones_irons_bridge.major_cooldown_reduction",
+  "required_level": 0.5,
+  "description": "rune.stones_irons_bridge.major_cooldown_reduction.desc"
+}
